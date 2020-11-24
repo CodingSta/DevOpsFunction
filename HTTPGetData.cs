@@ -10,9 +10,9 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 
 namespace RecursiveSoft.Function
 {
-    public static class ReadBridgeData
+    public static class HTTPGetData
     {
-        [FunctionName("ReadBridgeData")]
+        [FunctionName("HTTPGetData")]
         public static async Task<string> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, ILogger log, ExecutionContext context)
         {
             string requestBody = new StreamReader(req.Body).ReadToEnd();

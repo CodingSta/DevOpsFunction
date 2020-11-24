@@ -21,17 +21,17 @@ using Microsoft.AspNetCore.Http;
 
 namespace RecursiveSoft.Function
 {
-    public static class POSTHeight
+    public static class HTTPPOSTTrigger
     {
-        [FunctionName("POSTHeight")]
-        public static async void Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, ILogger log, ExecutionContext context)
+        [FunctionName("HTTPPOSTTrigger")]
+        public static async void Run([HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req, ILogger log, ExecutionContext context)
         {
             string dateA = DateTime.UtcNow.AddHours(9).ToString("yyyyMM");
             string dateB = DateTime.UtcNow.AddHours(9).ToString("yyyyMMdd");
 
             string connStrA = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
             BlobServiceClient blobServiceClient = new BlobServiceClient(connStrA);
-            BlobContainerClient containerA = blobServiceClient.GetBlobContainerClient("bridge");
+            BlobContainerClient containerA = blobServiceClient.GetBlobContainerClient("jsondata");
             BlobClient blobClientA = containerA.GetBlobClient(dateA + "/" + dateB + ".json");
             //AppendBlobClient blobClientA = containerA.GetAppendBlobClient(dateA + "/" + dateB + ".json");
             //appendBlob.AppendText("new line");
@@ -60,13 +60,6 @@ namespace RecursiveSoft.Function
             {
                 await blobClientA.UploadAsync(streamA, true);
             }
-        }
-
-        private class BridgeData : TableEntity
-        {
-            public string Temperature { get; set; }
-            public string Humidity { get; set; }
-            public string Pressure { get; set; }
         }
     }
 }
