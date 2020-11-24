@@ -1,0 +1,2592 @@
+{
+  "PARA_VE2200_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "FT2241 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_VE2200_LOW: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2241 Low Alarm Level",
+    "max": 10
+  },
+  "PARA_VE2200_P_HIGH: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2241 Pre-High Alarm Level",
+    "max": 10
+  },
+  "PARA_VE2200_P_LOW: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2241 Pre-Low Alarm Level",
+    "max": 10
+  },
+  "PARA_BL2500_01_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2500 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_VE2200_SCALE_MAX: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2241 Scaling Maximum",
+    "max": 10000
+  },
+  "PARA_VE2200_SCALE_MIN: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2241 Scaling Minimum",
+    "max": 10000
+  },
+  "PARA_FS2541_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "FS2541 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PS2525_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2525 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_AIR_FLOW_TAR_REGEN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Air Flow in Regeneration Step",
+    "max": 10000
+  },
+  "PARA_FAN_P_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2500 P Gain",
+    "max": 100
+  },
+  "PARA_FAN_I_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2500 I Gain",
+    "max": 100
+  },
+  "PARA_FAN_D_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2500 D Gain",
+    "max": 100
+  },
+  "PARA_BL2500_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2500 PID Control Maximum",
+    "max": 100
+  },
+  "PARA_BL2500_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2500 PID Control Minimum",
+    "max": 100
+  },
+  "PARA_LAST_GAS_PUR_TIME_TAR: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Fresh Air Blowing Time",
+    "max": 3600
+  },
+  "PARA_MAP_BLW_TAR_01: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 01",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_02: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 02",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_03: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 03",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_04: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 04",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_05: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 05",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_06: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 06",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_07: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 07",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_08: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 08",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_09: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 09",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_10: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 10",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_11: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 11",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_12: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 12",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_13: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 13",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_14: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 14",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_15: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 15",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_16: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 16",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_17: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 17",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_18: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 18",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_19: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 19",
+    "max": 10000
+  },
+  "PARA_MAP_BLW_TAR_20: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Blower Target 20",
+    "max": 10000
+  },
+  "PARA_BL2500_CYCLE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Main Blower Heater Cycle Time",
+    "max": 3600
+  },
+  "PARA_BL2500_DELAY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Main Blower Heater Delay Time for Start",
+    "max": 3600
+  },
+  "PARA_BL2500_ON_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Main Blower Heater On Time",
+    "max": 3600
+  },
+  "PARA_AIR_FLOW_TAR_AFR_PILOT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target of Air Flow after Burner Pilot",
+    "max": 10000
+  },
+  "PARA_AIR_FLOW_TAR_BFR_PILOT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target of Air Flow before Burner Pilot",
+    "max": 10000
+  },
+  "PARA_AIR_FLOW_TAR_PURGE: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target of Air Flow in Purge Step",
+    "max": 10000
+  },
+  "PARA_BL2772_01_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772-01 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_BL2772_02_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772-02 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_CSV2775_01_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CSV2775-01 Position Error Delay Time",
+    "max": 3600
+  },
+  "PARA_CSV2775_02_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CSV2775-02 Position Error Delay Time",
+    "max": 3600
+  },
+  "PARA_FD2791_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "FD2791 Fail Alarm Delay Time ",
+    "max": 3600
+  },
+  "PARA_PP2770_01_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PP2770-01 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_PP2770_02_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PP2770-02 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_PS2721_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2721 Low Alarm Delay Time ",
+    "max": 3600
+  },
+  "PARA_PS2725_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2725 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2301_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC2301 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2301_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC2301 High Alarm Level",
+    "max": 1000
+  },
+  "PARA_TC2301_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC2301 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2301_LOW: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC2301 Low Alarm Level",
+    "max": 1
+  },
+  "PARA_TC2301_P_HIGH: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC2301 Pre-High Alarm Level",
+    "max": 2
+  },
+  "PARA_TC2301_P_LOW: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC2301 Pre-Low Alarm Level",
+    "max": 2
+  },
+  "PARA_PS2730_P_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2730 Pre-High Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2301_DEV: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC2301 Sensor Deviation",
+    "max": 1000
+  },
+  "PARA_FT2742_SCALE_MAX: INT": {
+    "min": -100,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "FT2742 Scaling Maximum",
+    "max": 10000
+  },
+  "PARA_FT2742_SCALE_MIN: INT": {
+    "min": -100,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "FT2742 Scaling Minimum",
+    "max": 10000
+  },
+  "PARA_FT2744_SCALE_MAX: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2744 Scaling Maximum",
+    "max": 1000
+  },
+  "PARA_FT2744_SCALE_MIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2744 Scaling Minimum",
+    "max": 1000
+  },
+  "PARA_BL2772_INITIAL_PURGE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772 Initial Purge Time (Furnace Purge)",
+    "max": 3600
+  },
+  "PARA_BL2772_LAST_PURGE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772 Last Purge Time (Furnace Purge)",
+    "max": 3600
+  },
+  "PARA_ZV2758_PURGE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Burner Main Air Valve Purge Time",
+    "max": 3600
+  },
+  "PARA_BL2772_MAPPING_ENABLE: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Burner Blower Control (0: Feedback, 1: Mapping)",
+    "max": 1
+  },
+  "PARA_BU2700_02_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Burner Panel Power Alarm Cut-Out",
+    "max": 1
+  },
+  "PARA_BU2700_01_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Burner Pilot Time Over Alarm Cut-Out",
+    "max": 1
+  },
+  "PARA_BU2700_CONTROL: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Burner Selection (0: UV Type, 1: Photo Type, 2: Small Size)",
+    "max": 5
+  },
+  "PARA_YARD_FUEL_PUMP: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Only Yard Fuel Pump (0: Applied, 1 : Not Applied)",
+    "max": 1
+  },
+  "PARA_CSV2775_CLOSE_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CSV2775 Close Delay Time",
+    "max": 3600
+  },
+  "PARA_CSV2775_OPEN_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CSV2775 Open Delay Time",
+    "max": 3600
+  },
+  "PARA_RING_PURGE_PER: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772 Furnace Purge  Percentage",
+    "max": 100
+  },
+  "PARA_BL2772_CYCLE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772 Heater Cycle Time",
+    "max": 3600
+  },
+  "PARA_BL2772_DELAY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772 Heater Delay Time for Start",
+    "max": 3600
+  },
+  "PARA_BL2772_ON_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "BL2772 Heater On Time",
+    "max": 3600
+  },
+  "PARA_RING_MARGIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2772 Margin Factor",
+    "max": 2
+  },
+  "PARA_RING_PILOT_PER: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772 Pilot Percentage",
+    "max": 100
+  },
+  "PARA_BL2772_01_P_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2772-01 Controller P gain",
+    "max": 100
+  },
+  "PARA_BL2772_01_I_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2772-01 Controller I gain",
+    "max": 100
+  },
+  "PARA_BL2772_01_D_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "BL2772-01 Controller D gain",
+    "max": 100
+  },
+  "PARA_BL2772_01_PID_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-01 PID Control Maximum",
+    "max": 100
+  },
+  "PARA_BL2772_01_PID_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-01 PID Control Minimum",
+    "max": 100
+  },
+  "PARA_BL2772_02_FLOW_OFF: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-02 Estimated Flow when Engine Off",
+    "max": 1000
+  },
+  "PARA_BL2772_02_FLOW_ON: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-02 Estimated Flow when Engine On ",
+    "max": 1000
+  },
+  "PARA_BL2772_02_MAX_OFF: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-02 Maximum Percentage when Engine Off",
+    "max": 100
+  },
+  "PARA_BL2772_02_MAX_ON: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2772-02 Maximum Percentage when Engine On ",
+    "max": 100
+  },
+  "PARA_OB_FUEL_P_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Burner Controller P Gain",
+    "max": 100
+  },
+  "PARA_OB_FUEL_I_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Burner Controller I Gain",
+    "max": 100
+  },
+  "PARA_OB_FUEL_D_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Burner Controller D Gain",
+    "max": 100
+  },
+  "PARA_FUEL_FLOW_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Burner Controller Maximum",
+    "max": 500
+  },
+  "PARA_FUEL_FLOW_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Burner Controller Minimum",
+    "max": 500
+  },
+  "PARA_FUEL_AIR_RATIO: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Burner Fuel / Air Ratio",
+    "max": 100
+  },
+  "PARA_PILOT_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Burner Pilot Time",
+    "max": 3600
+  },
+  "PARA_FUEL_CTL_VV_P_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Fuel Control Valve P Gain",
+    "max": 100
+  },
+  "PARA_FUEL_CTL_VV_I_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Fuel Control Valve I Gain",
+    "max": 100
+  },
+  "PARA_FUEL_CTL_VV_D_GAIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Fuel Control Valve D Gain",
+    "max": 100
+  },
+  "PARA_FUEL_MAX_ANAL: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Fuel Control Valve Maximum",
+    "max": 100
+  },
+  "PARA_FUEL_MIN_ANAL: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Fuel Control Valve Minimum",
+    "max": 100
+  },
+  "PARA_MAP_BNR_TAR_01: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 01",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_02: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 02",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_03: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 03",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_04: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 04",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_05: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 05",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_06: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 06",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_07: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 07",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_08: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 08",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_09: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 09",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_10: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 10",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_11: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 11",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_12: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 12",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_13: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 13",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_14: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 14",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_15: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 15",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_16: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 16",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_17: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 17",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_18: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 18",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_19: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 19",
+    "max": 1000
+  },
+  "PARA_MAP_BNR_TAR_20: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Burner Target 20",
+    "max": 1000
+  },
+  "PARA_HEAT_MAP_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Max Dosing Amount",
+    "max": 3000
+  },
+  "PARA_MAIN_NOZZLE_ON_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Main Nozzle On Time during Pilot Try",
+    "max": 600
+  },
+  "PARA_SEALING_OFF_DEALY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Sealing Air Valve Off Delay Time",
+    "max": 3600
+  },
+  "PARA_BNR_TAR_AFR_EXH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature After Exhaust Gas In",
+    "max": 1000
+  },
+  "PARA_BNR_TAR_BFR_EXH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature Before Exhaust Gas In",
+    "max": 1000
+  },
+  "PARA_CADP_ERROR_DEALY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CADP Error Delay Time",
+    "max": 3600
+  },
+  "PARA_CADP_AVER_01: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CADP Averaging Time 01",
+    "max": 1440
+  },
+  "PARA_CADP_AVER_02: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CADP Averaging Time 02",
+    "max": 1440
+  },
+  "PARA_CADP_ENGINE_TOL: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CADP Engine Load Tolerance",
+    "max": 120
+  },
+  "PARA_CADP_LOAD_IN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CADP Engine Target Load",
+    "max": 120
+  },
+  "PARA_CADP_TAR_01: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CADP NH3/NOx Target 01",
+    "max": 2
+  },
+  "PARA_CADP_TAR_02: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CADP NH3/NOx Target 02",
+    "max": 2
+  },
+  "PARA_CADP_TIME_01: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CADP Time 01",
+    "max": 1440
+  },
+  "PARA_CADP_TIME_02: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CADP Time 02",
+    "max": 1440
+  },
+  "PARA_CATAL_THERMO_SHOCK_TEMP: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Catalyst Thermal Shock Temperature",
+    "max": 1000
+  },
+  "PARA_TC1101_REGEN_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Full Regeneration Time at TC1101",
+    "max": 1440
+  },
+  "PARA_TC1111_REGEN_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Full Regeneration Time at TC1111",
+    "max": 1440
+  },
+  "PARA_LAST_HEAT_TIME: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Last Regeneration Time",
+    "max": 1440
+  },
+  "PARA_REGEN_CYCLE: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Regeneration Cycle Time",
+    "max": 43800
+  },
+  "PARA_TC1101_HYS_TAR_REGEN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Hysteresis of TC1101 in Regeneration",
+    "max": 1000
+  },
+  "PARA_BRN_TAR_REGEN_OFFSET: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature of Offset in Regeneration",
+    "max": 1000
+  },
+  "PARA_BRN_TAR_LAST_HEAT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature of TC1101 in Last Regeneration",
+    "max": 1000
+  },
+  "PARA_TC1101_TAR_REGEN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature of TC1101 in Regeneration",
+    "max": 1000
+  },
+  "PARA_TC1111_TAR_REGEN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Target Temperature of TC1111 in Regeneration",
+    "max": 1000
+  },
+  "PARA_TC2401_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC2401 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2401_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC2401 High Alarm Level",
+    "max": 1000
+  },
+  "PARA_TC2401_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC2401 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC2401_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC2401 Low Alarm Level",
+    "max": 1000
+  },
+  "PARA_AIG_HEATUP_TEMP: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC2401 Minimum Temperature for Dosing",
+    "max": 1000
+  },
+  "PARA_LM9981_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "LM9981 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_LM9981_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "LM9981 High Alarm Level",
+    "max": 100
+  },
+  "PARA_LM9981_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "LM9981 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_LM9981_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "LM9981 Low Alarm Level",
+    "max": 100
+  },
+  "PARA_LM9985_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "LM9985 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_MCP_TEMP_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "MCP Temperature High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_MCP_TEMP_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "MCP Temperature High Alarm Level",
+    "max": 100
+  },
+  "PARA_ENGINE_MIN_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Minimum Engine Load Alarm Delay Time",
+    "max": 100
+  },
+  "PARA_ENGINE_MIN_LOAD_HYS_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Minimum Engine Load for Urea Dosing (Hysteresis High)",
+    "max": 100
+  },
+  "PARA_ENGINE_MIN_LOAD_HYS_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Minimum Engine Load for Urea Dosing (Hysteresis Low)",
+    "max": 100
+  },
+  "PARA_ALARM_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "No Connection Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_NOXS3242_01_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "NOxS3242-01 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_NOXS3242_02_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "NOxS3242-02 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_STOP_WAIT: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "SCR Slow Down Waiting Time",
+    "max": 3600
+  },
+  "PARA_TE3305_DELAY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TE3305 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_SQ_ALARM_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Sequence Fail Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TE3305_MAX_TEMP: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TE3305 High Alarm Level",
+    "max": 500
+  },
+  "PARA_EXH_GAS_TEMP_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC3201 Low Alarm Level",
+    "max": 1000
+  },
+  "PARA_TE9901_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TE9901 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TE9901_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TE9901 High Alarm Level",
+    "max": 1000
+  },
+  "PARA_TE9901_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TE9901 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TE9901_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TE9901 Low Alarm Level",
+    "max": 1000
+  },
+  "PARA_NOX_DEV: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "NOx Sensor Deviation",
+    "max": 1000
+  },
+  "PARA_AMU3395_HUM_SCAIL_MAX: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AMU3395 Humidity Scaling Maximum",
+    "max": 100
+  },
+  "PARA_AMU3395_HUM_SCAIL_MIN: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AMU3395 Humidity Scaling Minimum",
+    "max": 100
+  },
+  "PARA_AMU3395_TEMP_SCAIL_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AMU3395 Temperaute Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_AMU3395_TEMP_SCAIL_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AMU3395 Temperaute Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_AP3386_SCAIL_MAX: REAL": {
+    "min": -2000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AP3386 Scaling Maximum",
+    "max": 2000
+  },
+  "PARA_AP3386_SCAIL_MIN: REAL": {
+    "min": -2000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "AP3386 Scaling Minimum",
+    "max": 2000
+  },
+  "PARA_LOAD_SCALE_MAX: REAL": {
+    "min": -200,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Engine Load Scaling Maximum",
+    "max": 200
+  },
+  "PARA_LOAD_SCALE_MIN: REAL": {
+    "min": -200,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Engine Load Scaling Minimum",
+    "max": 200
+  },
+  "PARA_RPM_SCALE_MAX: REAL": {
+    "min": -200,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Engine RPM Scaling Maximum",
+    "max": 200
+  },
+  "PARA_RPM_SCALE_MIN: REAL": {
+    "min": -200,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Engine RPM Scaling Minimum",
+    "max": 200
+  },
+  "PARA_LM9981_SCALE_MAX: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "LM9981 Scaling Maximum",
+    "max": 100
+  },
+  "PARA_LM9981_SCALE_MIN : REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "LM9981 Scaling Minimum",
+    "max": 100
+  },
+  "PARA_PT8601_SCAIL_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT8601 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_PT8601_SCAIL_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT8601 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_TC3201_SCALE_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC3201 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_TC3201_SCALE_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC3201 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_TC3201_OUT_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC3201 Scaling Maximum for External",
+    "max": 2000
+  },
+  "PARA_TC3201_OUT_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC3201 Scaling Minimum for External",
+    "max": 2000
+  },
+  "PARA_TE3305_SCALE_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TE3305 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_TE3305_SCALE_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TE3305 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_TE9901_SCALE_MAX : REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TE9901 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_TE9901_SCALE_MIN : REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TE9901 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_C_CHECKSUM: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Chief Parameter Number Checksum",
+    "max": 4294967295
+  },
+  "PARA_D_CHECKSUM: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Designer Parameter Number Checksum",
+    "max": 4294967295
+  },
+  "PARA_EN_SCR_CONTROL: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Engage SCR Control (1: SCR, 0: External)",
+    "max": 1
+  },
+  "PARA_INTERFACE_SELECTION: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Interface Selection (0: MDT, 1: WINGD, 2: Internal Mapping g/kWh, 3: Internal Mapping L/h)",
+    "max": 5
+  },
+  "PARA_ISO_CAL: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "ISO Correction in case of WINGD (0: Applied, 1: Not Applied)",
+    "max": 1
+  },
+  "PARA_LM9981_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "LM9981 Cut-Out",
+    "max": 1
+  },
+  "PARA_LM9985_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "LM9985 Cut-Out",
+    "max": 1
+  },
+  "PARA_UNIT_SELECTION: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Pressure Unit Selection (0 : Mpa, 1: bar )",
+    "max": 1
+  },
+  "PARA_AUTO_PUMP_REDUNDANCY: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Pump Auto Redundancy (0: Applied, 1: Not Applied)",
+    "max": 1
+  },
+  "PARA_TE9901_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "TE9901 Cut-Out",
+    "max": 1
+  },
+  "PARA_LM9981_L_L_DELAY : DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "LM9981 Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_LM9981_L_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "LM9981 Low-Low Alarm Level",
+    "max": 100
+  },
+  "PARA_LM9985_H_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "LM9985 High-High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_SCALE_DELAY: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Scaling Delay",
+    "max": 100
+  },
+  "PARA_SCALE_MAX: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Scaling High Limit",
+    "max": 100
+  },
+  "PARA_SCALE_MIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Scaling Low Limit",
+    "max": 100
+  },
+  "PARA_TE9901_H_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TE9901 High-High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TE9901_H_HIGH : INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TE9901 High-High Alarm Level",
+    "max": 1000
+  },
+  "PARA_EXT_NOX_MAX: INT": {
+    "min": -100,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "External NOx Sensor Maximum Value",
+    "max": 10000
+  },
+  "PARA_EXT_NOX_MIN: INT": {
+    "min": -100,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "External NOx Sensor Minimum Value",
+    "max": 10000
+  },
+  "PARA_BL2500_INITIAL_VALUE: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "BL2500 Initializing Minimum Value",
+    "max": 3600
+  },
+  "PARA_HEAT_HYS_RANGE: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Heat Mapping Hysteresis Range",
+    "max": 1000
+  },
+  "PARA_RESERVED_INT_01: INT": {
+    "min": -32768,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "RESERVED_INT_01 : Air Utilty Check Unit (0: PS1323 / 1: PT1323 / 2:PS1321.1322)",
+    "max": 32767
+  },
+  "PARA_RESERVED_INT_02: INT": {
+    "min": -32768,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "RESERVED_INT_02 : Burner Post Purge (0: Not Applied / 1: Applied)",
+    "max": 32767
+  },
+  "PARA_RESERVED_INT_03: INT": {
+    "min": -32768,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "RESERVED_INT_03 : Engine Power",
+    "max": 32767
+  },
+  "PARA_RESERVED_INT_04: INT": {
+    "min": -32768,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "RESERVED_INT_04  : Selection Bit (-/-/ADD O.C/Del NOx/Del PP/Del Red/Purge Air VV/BIP Shutoff)",
+    "max": 32767
+  },
+  "PARA_RESERVED_INT_05: INT": {
+    "min": -32768,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "RESERVED_INT_05  : ISO Correction Method (0: IMO / 1: MDT)",
+    "max": 32767
+  },
+  "PARA_RESERVED_REAL_01: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "RESERVED_REAL_01 : TE3301 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_RESERVED_REAL_02: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "RESERVED_REAL_02 : TE3301 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_RESERVED_REAL_03: REAL": {
+    "min": -9999,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "RESERVED_REAL_03 : BIP Thermostat Scaling Maximum",
+    "max": 9999
+  },
+  "PARA_RESERVED_REAL_04: REAL": {
+    "min": -9999,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "RESERVED_REAL_04 : BIP Thermostat Scaling Minimum",
+    "max": 9999
+  },
+  "PARA_RESERVED_REAL_05: REAL": {
+    "min": -9999,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "RESERVED_REAL_05 : Delay Time After Yard Pump On",
+    "max": 9999
+  },
+  "PARA_CPV3271_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3271 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3271_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3271 High Alarm Level",
+    "max": 150
+  },
+  "PARA_CPV3271_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3271 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3271_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3271 Low Alarm Level",
+    "max": 150
+  },
+  "PARA_CPV3272_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3272 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3272_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3272 High Alarm Level",
+    "max": 150
+  },
+  "PARA_CPV3272_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3272 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3272_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3272 Low Alarm Level",
+    "max": 150
+  },
+  "PARA_CPV3273_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3273 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3273_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3273 High Alarm Level",
+    "max": 150
+  },
+  "PARA_CPV3273_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "CPV3273 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_CPV3273_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3273 Low Alarm Level",
+    "max": 150
+  },
+  "PARA_PDT1121_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PDT1121 High Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_PDT1121_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "PDT1121 High Alarm Level",
+    "max": 700
+  },
+  "PARA_TC1101_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1101 High Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_TC1101_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 High Alarm Level",
+    "max": 600
+  },
+  "PARA_TC1101_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1101 Low Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_TC1101_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 Low Alarm Level",
+    "max": 600
+  },
+  "PARA_TC1111_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1111 High Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_TC1111_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 High Alarm Level",
+    "max": 600
+  },
+  "PARA_TC1111_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1111 Low Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_TC1111_LOW: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 Low Alarm Level",
+    "max": 600
+  },
+  "PARA_CPV3271_SCALE_MAX: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3271 Scaling Maximum",
+    "max": 150
+  },
+  "PARA_CPV3271_SCALE_MIN: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3271 Scaling Minimum",
+    "max": 150
+  },
+  "PARA_CPV3272_SCALE_MAX: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3272 Scaling Maximum",
+    "max": 150
+  },
+  "PARA_CPV3272_SCALE_MIN: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3272 Scaling Minimum",
+    "max": 150
+  },
+  "PARA_CPV3273_SCALE_MAX: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3273 Scaling Maximum",
+    "max": 150
+  },
+  "PARA_CPV3273_SCALE_MIN: REAL": {
+    "min": -150,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "CPV3273 Scaling Minimum",
+    "max": 150
+  },
+  "PARA_PDT1121_SCALE_MAX: REAL": {
+    "min": -500,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PDT1121 Scaling Maximum",
+    "max": 1000
+  },
+  "PARA_PDT1121_SCALE_MIN: REAL": {
+    "min": -500,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PDT1121 Scaling Minimum",
+    "max": 1000
+  },
+  "PARA_TC1101_SCALE_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC1101 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_TC1101_SCALE_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC1101 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_TC1101_OUT_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 Scaling Maximum for External",
+    "max": 2000
+  },
+  "PARA_TC1101_OUT_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 Scaling Minimum for External",
+    "max": 2000
+  },
+  "PARA_TC1111_SCALE_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC1111 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_TC1111_SCALE_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "TC1111 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_TC1111_OUT_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 Scaling Maximum for External",
+    "max": 2000
+  },
+  "PARA_TC1111_OUT_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 Scaling Minimum for External",
+    "max": 2000
+  },
+  "PARA_CPV3273_SET_RECIR: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "CPV3273 Open Rate for Recirculation",
+    "max": 100
+  },
+  "PARA_PDT1121_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "PDT1121 Cut-out",
+    "max": 1
+  },
+  "PARA_TC1101_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "TC1101 Cut-Out",
+    "max": 1
+  },
+  "PARA_TC1111_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "TC1111 Cut-Out",
+    "max": 1
+  },
+  "PARA_PDT1121_H_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PDT1121 High-High Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_PDT1121_H_HIGH : INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "PDT1121 High-High Alarm Level",
+    "max": 700
+  },
+  "PARA_TC1101_H_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1101 High-High Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_TC1101_H_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 High-High Alarm Level",
+    "max": 600
+  },
+  "PARA_TC1111_H_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "TC1111 High-High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_TC1111_H_HIGH: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 High-High Alarm Level",
+    "max": 600
+  },
+  "PARA_TC1101_TEMP_TAR: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1101 Target Temperature",
+    "max": 1000
+  },
+  "PARA_TC1111_TEMP_TAR: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "TC1111 Target Temperature",
+    "max": 1000
+  },
+  "PARA_PS1323_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS1323(PS1321,PS1322) Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT1323_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Low Alarm Level (bar)",
+    "max": 100
+  },
+  "PARA_PT1323_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Low Alarm Level (Mpa)",
+    "max": 10
+  },
+  "PARA_PT1323_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT1323 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT1323_SCALE_MAX_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Scaling Maximum (bar)",
+    "max": 100
+  },
+  "PARA_PT1323_SCALE_MIN_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Scaling Minimum (bar)",
+    "max": 100
+  },
+  "PARA_PT1323_SCALE_MAX_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Scaling Maximum (Mpa)",
+    "max": 10
+  },
+  "PARA_PT1323_SCALE_MIN_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Scaling Minimum (Mpa)",
+    "max": 10
+  },
+  "PARA_PS1323_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "PS1323 Cut-out",
+    "max": 1
+  },
+  "PARA_PS1323_L_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS1323(PS1321,PS1322) Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT1323_L_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Low-Low Alarm Level (bar)",
+    "max": 100
+  },
+  "PARA_PT1323_L_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT1323 Low-Low Alarm Level (Mpa)",
+    "max": 10
+  },
+  "PARA_PT1323_L_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT1323 Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_SOOT_COUNT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Soot Blower Count",
+    "max": 100
+  },
+  "PARA_SOOT_2L_CYCLE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Soot Blower Cycle Time ",
+    "max": 7500
+  },
+  "PARA_SOOT_ON_TIME: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Soot Blower On Time",
+    "max": 5
+  },
+  "PARA_SOOT_L_COUNT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Soot Blower Layer Count",
+    "max": 10
+  },
+  "PARA_SOOT_INTERVAL: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Soot Blowing Interval",
+    "max": 3600
+  },
+  "PARA_PM2175_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PM2175 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_PM2176_SET_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PM2176 Maintenance Interval",
+    "max": 43800
+  },
+  "PARA_PS2121_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2121 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PS2123_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2123 Low Alarm Delay",
+    "max": 3600
+  },
+  "PARA_PT2121_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT2121 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT2121_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Low Alarm Level (bar)",
+    "max": 100
+  },
+  "PARA_PT2121_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Low Alarm Level (Mpa)",
+    "max": 10
+  },
+  "PARA_PT2125_H_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT2125 High Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT2125_HIGH_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 High Alarm Level (bar)",
+    "max": 15
+  },
+  "PARA_PT2125_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Low Alarm Level (bar)",
+    "max": 15
+  },
+  "PARA_PT2125_HIGH_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 High Alarm Level (Mpa)",
+    "max": 1.5
+  },
+  "PARA_PT2125_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Low Alarm Level (Mpa)",
+    "max": 1.5
+  },
+  "PARA_PT2125_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT2125 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_FT2141_SCALE_MAX: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2141 Scaling Maximum",
+    "max": 5000
+  },
+  "PARA_FT2141_SCALE_MIN: REAL": {
+    "min": -1000,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FT2141 Scaling Minimum",
+    "max": 5000
+  },
+  "PARA_FT2141_OUT_MAX: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "FT2141 Scaling Maximum for External",
+    "max": 2000
+  },
+  "PARA_FT2141_OUT_MIN: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "FT2141 Scaling Minimum for External",
+    "max": 2000
+  },
+  "PARA_PT2121_SCALE_MAX_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Scaling Maximum (bar)",
+    "max": 100
+  },
+  "PARA_PT2121_SCALE_MIN_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Scaling Minimum (bar)",
+    "max": 100
+  },
+  "PARA_PT2121_SCALE_MAX_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Scaling Maximum (Mpa)",
+    "max": 10
+  },
+  "PARA_PT2121_SCALE_MIN_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Scaling Minimum (Mpa)",
+    "max": 10
+  },
+  "PARA_PT2125_SCALE_MAX_B: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Scaling Maximum (bar)",
+    "max": 100
+  },
+  "PARA_PT2125_SCALE_MIN_B: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Scaling Minimum (bar)",
+    "max": 100
+  },
+  "PARA_PT2125_SCALE_MAX_M: REAL": {
+    "min": -10,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Scaling Maximum (Mpa)",
+    "max": 10
+  },
+  "PARA_PT2125_SCALE_MIN_M: REAL": {
+    "min": -10,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Scaling Minimum (Mpa)",
+    "max": 10
+  },
+  "PARA_EXT_UREA_SET_MAX: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Reducing Agent Set Point Scaling Maximum(External)",
+    "max": 2000
+  },
+  "PARA_EXT_UREA_SET_MIN: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Reducing Agent Set Point Scaling Minimum(External)",
+    "max": 2000
+  },
+  "PARA_AUTO_DOSING_SET: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Auto Dosing in Manual Mode (0: Auto, 1: Manual)",
+    "max": 1
+  },
+  "PARA_PS2121_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "PS2121 Cut-Out",
+    "max": 1
+  },
+  "PARA_PT2125_CUT_OUT: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "PT2125 Cut-Out",
+    "max": 1
+  },
+  "PARA_FS_ALARM_ENABLE: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Urea Flow Switch Alarm (0: Applied, 1: Not Applied)",
+    "max": 1
+  },
+  "PARA_WTR_NZL_CHECK_DISABLE: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Urea Nozzle Clogging Check Function (0: Applied, 1: Not Applied)",
+    "max": 1
+  },
+  "PARA_NZL_CTL_BY_DOSING:BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Urea Nozzle Control during Urea Dosing   (0: Applied, 1: Not Applied)",
+    "max": 1
+  },
+  "PARA_NOZZLE_OPEN_AIR_PURGE: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Urea Nozzle Status during Air Purge (0: Open, 1: Close)",
+    "max": 1
+  },
+  "PARA_NZL_OPEN_WHEN_WTR_PURGE: BOOL": {
+    "min": 0,
+    "Type": "BOOL",
+    "Byte": 1,
+    "Description": "Urea Nozzle Status during Water Purge (0: Open, 1: Close)",
+    "max": 1
+  },
+  "PARA_UREA_ALARM_NOZZLE_CHECK_DELAY: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Clogging Check Alarm Delay Time",
+    "max": 600
+  },
+  "PARA_UREA_ALARM_NOZZLE_CHECK: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Clogging Check Alarm Flowrate",
+    "max": 1000
+  },
+  "PARA_FS2142_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Nozzle Check-FS2142 Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PS2121_L_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PS2121 Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT2121_L_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Low-Low Alarm Level (bar)",
+    "max": 100
+  },
+  "PARA_PT2121_L_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2121 Low-Low Alarm Level (Mpa)",
+    "max": 10
+  },
+  "PARA_PT2121_L_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT2121 Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_PT2125_L_LOW_B: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Low-Low Alarm Level (bar)",
+    "max": 15
+  },
+  "PARA_PT2125_L_LOW_M: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "PT2125 Low-Low Alarm Level (Mpa)",
+    "max": 1.5
+  },
+  "PARA_PT2125_L_L_DELAY: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "PT2125 Low-Low Alarm Delay Time",
+    "max": 3600
+  },
+  "PARA_AIR_PURGE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Air Purge Time",
+    "max": 1440
+  },
+  "PARA_TC2301_TARGET_NOZZLE_CHECK: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Clogging Check D/C Inlet Temperature",
+    "max": 1000
+  },
+  "PARA_UREA_TARGET_NOZZLE_CHECK: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Clogging Check Setting Flowrate",
+    "max": 1000
+  },
+  "PARA_FCV2171_PGAIN:REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FCV2171 P gain",
+    "max": 100
+  },
+  "PARA_FCV2171_IGAIN:REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FCV2171 I gain",
+    "max": 100
+  },
+  "PARA_FCV2171_DGAIN:REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FCV2171 D gain",
+    "max": 100
+  },
+  "PARA_FCV2171_MAX: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FCV2171 Maximum",
+    "max": 100
+  },
+  "PARA_FCV2171_MIN: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "FCV2171 Minimum",
+    "max": 100
+  },
+  "PARA_NOX_MASS_AT_25: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "NOx Emission at  25% (Dosing Target at 25%)",
+    "max": 1000
+  },
+  "PARA_NOX_MASS_AT_50: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "NOx Emission at  50% (Dosing Target at 50%)",
+    "max": 1000
+  },
+  "PARA_NOX_MASS_AT_75: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "NOx Emission at  75% (Dosing Target at 75%)",
+    "max": 1000
+  },
+  "PARA_NOX_MASS_AT_100: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "NOx Emission at 100% (Dosing Target at 100%)",
+    "max": 1000
+  },
+  "PARA_AIR_PURGE_VV_ON_DELAY_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Nozzle Check- Air Purge Sol. Valve On Delay Time",
+    "max": 3600
+  },
+  "PARA_AIR_PURGE_VV_ON_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Nozzle Check- Air Purge Sol. Valve On Time",
+    "max": 3600
+  },
+  "PARA_UREA_VV_ON_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Nozzle Check-Urea Sol. Valve On Time",
+    "max": 3600
+  },
+  "PARA_LOAD25_REDUCE_RATIO: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Target Ratio of Nox Reduce in  25% Load",
+    "max": 100
+  },
+  "PARA_LOAD50_REDUCE_RATIO: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Target Ratio of Nox Reduce in  50% Load",
+    "max": 100
+  },
+  "PARA_LOAD75_REDUCE_RATIO: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Target Ratio of Nox Reduce in  75% Load",
+    "max": 100
+  },
+  "PARA_LOAD100_REDUCE_RATIO: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Target Ratio of Nox Reduce in 100% Load",
+    "max": 100
+  },
+  "PARA_TSCREF_AT_25: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Tscref at  25%",
+    "max": 100
+  },
+  "PARA_TSCREF_AT_50: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Tscref at  50%",
+    "max": 100
+  },
+  "PARA_TSCREF_AT_75: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Tscref at  75%",
+    "max": 100
+  },
+  "PARA_TSCREF_AT_100: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Tscref at 100%",
+    "max": 100
+  },
+  "PARA_UGAS: REAL": {
+    "min": 0,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Ugas",
+    "max": 1
+  },
+  "PARA_NOZZLE_ON_DELAY_NOZZLE_CHECK: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Urea Dosing V/V ON Delay Time",
+    "max": 600
+  },
+  "PARA_NOZZLE_ON_TIME_NOZZLE_CHECK: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Urea Dosing V/V ON Time",
+    "max": 600
+  },
+  "PARA_NZL_COUNT: INT": {
+    "min": 0,
+    "Type": "INT",
+    "Byte": 2,
+    "Description": "Urea Nozzle Count",
+    "max": 10
+  },
+  "PARA_UREA_SAFETY: REAL": {
+    "min": -100,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Urea Safety Factor",
+    "max": 100
+  },
+  "PARA_WATER_PURGE_TIME: DWORD": {
+    "min": 0,
+    "Type": "WORD",
+    "Byte": 2,
+    "Description": "Water Purge Time",
+    "max": 1440
+  },
+  "PARA_UREA_CONCENTRATION: REAL": {
+    "min": 39,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Urea Concentration",
+    "max": 41
+  },
+  "PARA_UREA_DENSITY: REAL": {
+    "min": 1.1,
+    "Type": "REAL",
+    "Byte": 4,
+    "Description": "Urea Density",
+    "max": 1.2
+  }
+}
