@@ -31,14 +31,6 @@ namespace RecursiveSoft.Function
             {
                 blockBlobZ = containerA.GetBlobClient(dateM + "/" + dateD + "_daily_sum.json");
             }
-            else if (period.Equals("monthly"))
-            {
-                blockBlobZ = containerA.GetBlobClient(dateM + "/" + "monthly_sum.json");
-            }
-            else if (period.Equals("total"))
-            {
-                blockBlobZ = containerA.GetBlobClient("total_sum.json");
-            }
 
             string responseA = "No Data";
             if (blockBlobZ.Exists())
