@@ -21,27 +21,7 @@ namespace RecursiveSoft.Function
             string dateM = data?.DateM; //yyyyMM
             string dateD = data?.DateD; //yyyyMMdd
 
-            string connStrA = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
-            BlobServiceClient blobServiceClient = new BlobServiceClient(connStrA);
-            BlobContainerClient containerA = blobServiceClient.GetBlobContainerClient("alarmdata");
-
-            BlobClient blockBlobZ = containerA.GetBlobClient("total_sum.json");
-
-            if (period.Equals("daily"))
-            {
-                blockBlobZ = containerA.GetBlobClient(dateM + "/" + dateD + "_daily_sum.json");
-            }
-
             string responseA = "No Data";
-            if (blockBlobZ.Exists())
-            {
-                using (MemoryStream msZ = new MemoryStream())
-                {
-                    await blockBlobZ.DownloadToAsync(msZ);
-                    var length = msZ.Length;
-                    if (length != 0) responseA = System.Text.Encoding.UTF8.GetString(msZ.ToArray());
-                }
-            }
             return responseA;
         }
     }
